@@ -1,0 +1,21 @@
+/* normal link */
+a:link {
+    color: deepblue;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* the link is on hover */
+a:hover {
+    color: deepblue;
+    text-decoration: underline;
+}
+
+/* the link is on active */
+a:active {
+    color: deepcyan;
+}

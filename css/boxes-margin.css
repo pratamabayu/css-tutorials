@@ -1,0 +1,12 @@
+p {
+    width: 200px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0088dd;
+    padding: 10px;
+}
+
+/* all sides */
+p.note {
+    margin: 10px;
+}

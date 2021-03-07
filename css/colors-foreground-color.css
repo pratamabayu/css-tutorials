@@ -1,0 +1,15 @@
+/* Color name */
+
+h1 {
+    color: DarkBlue;
+}
+
+/* Hex code */
+h2 {
+    color: #ee6644;
+}
+
+/* RGB values */
+p {
+    color: rgb(100, 100, 90);
+}

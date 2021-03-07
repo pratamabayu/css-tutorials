@@ -1,0 +1,10 @@
+/* convert block element to inline element */
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* hide element with reserveed space, default visibility is visible */
+li.future {
+    visibility: hidden;
+}

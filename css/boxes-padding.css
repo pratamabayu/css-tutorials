@@ -1,0 +1,11 @@
+p {
+    width: 275px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0088dd;
+}
+
+/* all sides */
+p.note {
+    padding: 10px;
+}

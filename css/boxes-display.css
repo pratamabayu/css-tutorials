@@ -1,0 +1,10 @@
+/* convert block element to inline element */
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* set display to none to hide (and collapse) an element */
+li.future {
+    display: none;
+}

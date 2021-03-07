@@ -1,0 +1,24 @@
+p {
+    border-color: black;
+    border-style: solid;
+}
+
+/* all sides */
+p.one {
+    border-width: 2px;
+}
+
+/* other options are thin and medium */
+p.two {
+    border-width: think;
+}
+
+/* top - right - bottom - left */
+p.three {
+    border-width: 1px 4px 12px 4px;
+}
+
+/* top and bottom - right left */
+p.four {
+    border-width: 1px 4px;
+}

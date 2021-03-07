@@ -1,0 +1,15 @@
+h1 {
+    text-align: left;
+}
+
+h2 {
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+}
+
+.note {
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+h1 {
+    color: blue;
+}
+
+.h1-alternate {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+p.quote {
+    color: royalblue;
+    text-align: right;
+}
+
+.note i {
+    color: black;
+}
+
+li > a {
+    color: blue;
+}
+
+p .custom {
+    color: mediumaquamarine;
+}

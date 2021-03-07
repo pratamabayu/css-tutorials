@@ -1,0 +1,13 @@
+p {
+    width: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0088dd;
+    padding: 50px;
+}
+
+/* set left and right to auto, only works width is setup */
+p.note {
+    margin: 10px auto 10px auto;
+    width: 300px;
+}

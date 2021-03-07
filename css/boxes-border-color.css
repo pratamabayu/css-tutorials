@@ -1,0 +1,19 @@
+p {
+    border-width: 2px;
+    border-style: solid;
+}
+
+/* all sides */
+p.one {
+    border-color: #0088dd;
+}
+
+/* top - right - bottom - left */
+p.two {
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
+
+/* top and bottom - right left */
+p.three {
+    border-color: #bbbbaa #111111;
+}

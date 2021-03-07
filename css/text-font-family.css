@@ -1,0 +1,13 @@
+body {
+    font-family: Georgia, Times, serif;
+}
+
+h1,
+h2 {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+/* Use double quotes for spaceable font name */
+.note {
+    font-family: “Courier New”, Courier, monospace;
+}
