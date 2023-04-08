@@ -1,0 +1,20 @@
+.container {
+    background-color: whitesmoke;
+    height: 300vh;
+}
+
+.item-1, .item-2, .item-3 {
+    padding: 8px;
+    margin: 8px 0px;
+}
+
+.item-1, .item-3 {
+    background-color: lightgray;
+}
+
+/* Using sticky will position our element based on the user's scroll position. It toggles between position relative and fixed. We can provide the offsets using top, left, right, bottom. */
+.item-2 {
+    background-color: gray;
+    position: sticky;
+    top: 0px;
+}

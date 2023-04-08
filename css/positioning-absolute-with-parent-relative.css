@@ -1,0 +1,21 @@
+.container {
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.item-1, .item-2, .item-3 {
+    padding: 8px;
+    margin: 8px 0px;
+}
+
+.item-1, .item-3 {
+    background-color: lightgray;
+}
+
+/* It is working like the fixed positioning, but it is not positioned relatively to the viewport, but instead it is positioned based on the closest positioned element (which has position other than static). If there are no positioned parents it will be positioned relative to the viewport (Same result as it would be with fixed) */
+.item-2 {
+    background-color: gray;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}

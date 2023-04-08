@@ -1,0 +1,17 @@
+.container {
+    background-color: whitesmoke;
+}
+
+.item-1, .item-2, .item-3 {
+    padding: 8px;
+    margin: 8px 0px;
+}
+
+.item-1, .item-3 {
+    background-color: lightgray;
+}
+
+/* By default the value of position is static. If the position of an element is static, the element will render in order, based on the position of it in the original document flow. */
+.item-2 {
+    background-color: gray;
+}

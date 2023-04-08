@@ -1,0 +1,19 @@
+.container {
+    background-color: whitesmoke;
+}
+
+.item-1, .item-2, .item-3 {
+    padding: 8px;
+    margin: 8px 0px;
+}
+
+.item-1, .item-3 {
+    background-color: lightgray;
+}
+
+/* If we set the position of an element to relative, it will appear in the document as it would by default using static. The trick is that by setting position relative, we gain access to the following CSS properties: top, left, right, bottom */
+.item-2 {
+    background-color: gray;
+    position: relative;
+    left: 8px;
+}

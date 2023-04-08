@@ -1,0 +1,20 @@
+.container {
+    background-color: whitesmoke;
+}
+
+.item-1, .item-2, .item-3 {
+    padding: 8px;
+    margin: 8px 0px;
+}
+
+.item-1, .item-3 {
+    background-color: lightgray;
+}
+
+/* With fixed positioning we also have access to top, left, right, bottom properties. In this case the element is positioned relative to the browser window's viewport. */
+.item-2 {
+    background-color: gray;
+    position: fixed;
+    left: 8px;
+    top: 8px;
+}
