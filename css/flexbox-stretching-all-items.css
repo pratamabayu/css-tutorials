@@ -1,0 +1,21 @@
+.container {
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.item-1, .item-2, .item-3 {
+    padding: 8px;
+}
+
+.item-1, .item-3 {
+    background-color: lightgray;
+}
+
+.item-2 {
+    background-color: gray;
+}
+
+/* Defaultly, we’ve only had fixed-width items. But what if we want them to be responsive? To achieve that we have a property called flex. We’ll simply target all the items and give them a flex value of 1. */
+.container > * {
+    flex: 1;
+}

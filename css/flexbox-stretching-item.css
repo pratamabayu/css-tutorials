@@ -1,0 +1,18 @@
+.container {
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.item-1, .item-2, .item-3 {
+    padding: 8px;
+}
+
+.item-1, .item-3 {
+    background-color: lightgray;
+}
+
+/* In many cases, you’d probably want one of the items to take up the extra width, and thereby only set one of them to have flexible width. We can, for example, make the item-2 item take up all the extra space. */
+.item-2 {
+    background-color: gray;
+    flex: 1;
+}

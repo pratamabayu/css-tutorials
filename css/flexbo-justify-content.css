@@ -1,0 +1,18 @@
+/* justify-content property is how the items are positioned along the main axis. Let’s center all the items along the main axis by using justify-content. Here are the values you can set for justify-content : flex-start (default), flex-end, center, space-between, space-around, and space-evenly */
+.container {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.item-1, .item-2, .item-3 {
+    padding: 8px;
+}
+
+.item-1, .item-3 {
+    background-color: lightgray;
+}
+
+.item-2 {
+    background-color: gray;
+}

@@ -1,5 +1,6 @@
 .container {
     background-color: whitesmoke;
+    display: flex;
 }
 
 .item-1, .item-2, .item-3 {
@@ -10,7 +11,8 @@
     background-color: lightgray;
 }
 
-/* By default the value of position is static. If the position of an element is static, the element will render in order, based on the position of it in the original document flow. */
+/* If we want item-2 pushed to the right, set margin-left to auto. It will force the next items pushed too. */
 .item-2 {
     background-color: gray;
+    margin-left: auto;
 }

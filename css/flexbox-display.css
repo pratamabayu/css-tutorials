@@ -1,0 +1,17 @@
+/* To turn this into a Flexbox layout, we’ll simply give the container the following CSS property. This will automatically position the items nicely along the horizontal axis */
+.container {
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.item-1, .item-2, .item-3 {
+    padding: 8px;
+}
+
+.item-1, .item-3 {
+    background-color: lightgray;
+}
+
+.item-2 {
+    background-color: gray;
+}
