@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+    gap: 1rem;
+}
+
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6 {
+    background-color: lightgray;
+    text-align: center;
+}
+
+/* Place item-4 where 1 is start value and 3 is end value. */
+.item-5 {
+    grid-column: 1 / 3;
+}

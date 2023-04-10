@@ -1,0 +1,11 @@
+/* Defining how wide you want each of your columns to be when using grid-template-columns with three columns that are all the same width is pretty simple. But that’s a lot of typing if you want any more columns than that. This is where the repeat() function comes in. */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+    gap: 1rem;
+}
+
+.item {
+    background-color: lightgray;
+    text-align: center;
+}

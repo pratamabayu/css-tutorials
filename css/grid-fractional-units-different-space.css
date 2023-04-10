@@ -1,0 +1,11 @@
+/* You can also set your columns to 2fr, 3fr, and so on, and that column’s items will take up 2x, 3x (and so on) the amount of space. */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1rem;
+}
+
+.item {
+    background-color: lightgray;
+    text-align: center;
+}

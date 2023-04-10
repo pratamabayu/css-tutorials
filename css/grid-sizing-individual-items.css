@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+    gap: 1rem;
+}
+
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6 {
+    background-color: lightgray;
+    text-align: center;
+}
+
+/* You cannot place a hard width on individual items, because we explicitly set the width with grid-template-columns. But what if you want item five in our example to be the width of multiple columns? We can do this using grid-column and span. */
+.item-5 {
+    grid-column: span 2;
+}

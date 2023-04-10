@@ -1,0 +1,10 @@
+/* Unlike when setting Flexbox to display: flex, adding display: grid to your wrapper doesn’t immediately make a difference. This is because you aren’t explicitly defining how many columns you want your grid to have. You’ll do this with grid-template-columns.  */
+.container {
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+}
+
+.item {
+    background-color: lightgray;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+/* It used the shorthand property gap, but you can define an explicit value for the columns and rows by using column-gap and row-gap. */
+.container {
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    gap: 1rem;
+}
+
+.item {
+    background-color: lightgray;
+    text-align: center;
+}

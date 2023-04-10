@@ -1,0 +1,11 @@
+/* Fractional units, or fr, are a new CSS length unit introduced with CSS Grid. Say we want three columns all of equal width. Instead of setting width: calc(100% / 3) on the items, we can use fractional units. Think of fractional units as free space. */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.item {
+    background-color: lightgray;
+    text-align: center;
+}
