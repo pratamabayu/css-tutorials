@@ -1,14 +1,12 @@
 /* grid system */
 .grid-container {
-    width: 100%;
-    margin: 0px auto;
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 30px;
+    gap: 30px 10px;
     grid-template-areas:
-        "full full full full" "fourth1 fourth2 fourth3 fourth4" "half1 half1 half2 half2"
+        "full full full full" 
+        "fourth1 fourth2 fourth3 fourth4" 
+        "half1 half1 half2 half2"
 }
 
 .full {
@@ -44,7 +42,11 @@
     .grid-container {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
-            "full full" "fourth1 fourth2" "fourth3 fourth4" "half1 half1" "half2 half2"
+            "full full" 
+            "fourth1 fourth2" 
+            "fourth3 fourth4" 
+            "half1 half1" 
+            "half2 half2"
     }
 }
 
@@ -53,6 +55,12 @@
     .grid-container {
         grid-template-columns: 1fr;
         grid-template-areas:
-            "full" "fourth1" "fourth2" "fourth3" "fourth4" "half1" "half2"
+            "full" 
+            "fourth1" 
+            "fourth2" 
+            "fourth3" 
+            "fourth4" 
+            "half1" 
+            "half2"
     }
 }

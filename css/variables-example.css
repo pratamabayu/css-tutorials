@@ -1,0 +1,9 @@
+/* In this example, we define a variable named --main-color and set its value to #ff0000 */
+:root {
+    --main-color: #ff0000;
+}
+
+/* We then use this variable in our h1 selector by calling it with the var() function */
+h1 {
+    color: var(--main-color);
+}
