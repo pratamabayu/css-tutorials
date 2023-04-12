@@ -1,28 +1,19 @@
-h1 {
-    color: blue;
+* {
+    color: darkgray;
 }
 
-.h1-alternate {
-    color: red;
+h1, h2, h3 {
+    color: orange;
 }
 
-p {
-    color: green;
-}
-
-p.quote {
-    color: royalblue;
-    text-align: right;
-}
-
-.note i {
-    color: black;
+p.note {
+    color:blue;
 }
 
 li > a {
-    color: blue;
+    color: red;
 }
 
-p .custom {
-    color: mediumaquamarine;
+p a {
+    color: green;
 }
