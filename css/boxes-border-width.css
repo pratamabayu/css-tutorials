@@ -10,7 +10,7 @@ p.one {
 
 /* other options are thin and medium */
 p.two {
-    border-width: think;
+    border-width: thin;
 }
 
 /* top - right - bottom - left */
