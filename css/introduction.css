@@ -6,6 +6,10 @@ h1, h2, h3 {
     color: orange;
 }
 
+.note {
+   color: darkblue;
+}
+
 p.note {
     color:blue;
 }
